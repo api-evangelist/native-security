@@ -1,8 +1,30 @@
 aid: native-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/native-security.png
 name: Native Security
-description: Native Security is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Native Security is a cloud security control plane that unifies security
+  posture and enforcement across AWS, Azure, Google Cloud, and OCI. The
+  platform translates security intent expressed in natural language into
+  enforceable architectural controls, shifting teams from reactive detection
+  toward proactive, secure-by-design defense using built-in cloud security
+  primitives. Capabilities include multi-cloud policy enforcement from a single
+  definition, automated organization topology discovery and mapping,
+  architectural segmentation and perimeter enforcement, AI-agent guardrails
+  through architectural boundaries, and compliance automation with audit
+  readiness. Native Security is backed by General Catalyst. As of this profile
+  the company exposes no public developer API, SDK, or OpenAPI surface; product
+  documentation and the application console sit behind authentication.
 url: https://raw.githubusercontent.com/api-evangelist/native-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cloud Security
+- Cloud
+- Compliance
+- Governance
+- Multi-Cloud
+- AI Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/native-security-domain-security.yml
+- type: Website
+  url: https://native.security
+- type: Blog
+  url: https://native.security/blog
+- type: Support
+  url: https://native.security/contact-us
+- type: TrustCenter
+  url: security/native-security-trust-center.yml
+- type: Compliance
+  url: https://trust.native.security
+- type: Login
+  url: https://app.native.security/
+- type: PrivacyPolicy
+  url: https://native.security/privacy-policy
+- type: TermsOfService
+  url: https://native.security/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+url: https://trust.native.security
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001
+- HIPAA
+- GDPR
+- CCPA
+- CIS Controls 8.1
+resources:
+- Penetration test reports
+- Privacy whitepaper
+- SOC 2 report
+compliance_management: ProcessUnity
+evidence:
+- source: https://trust.native.security
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001
+  - hipaa
+  - gdpr
+  - ccpa
+  - cis controls 8.1
+  - trust center
+notes: >-
+  Public Trust Center lists named certifications and downloadable security
+  documentation (pen-test reports, privacy whitepaper, SOC 2 report). No
+  security.txt / responsible-disclosure / bug-bounty program was found on the
+  Trust Center page.

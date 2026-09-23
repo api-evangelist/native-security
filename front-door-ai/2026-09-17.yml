@@ -1,0 +1,27 @@
+# Front Door AI Index — native-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: native-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: native.security
+  final_host: www.native.security
+  ownership: own
+  owner: native-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 16
+  host_score: 16
+  density: 18.71
+  words: 855
+  tiers:
+    agentic: 2
+    core: 14
+    model: 0
+  ambiguous: 6
+  top_terms:
+    AI: 14
+    agent: 6
+    AI agent: 2
